@@ -19,7 +19,7 @@ export const MikuVideoHeader: React.FC = () => {
           e.currentTarget.style.display = 'none';
         }}
       >
-        <source src="/social_u6455584253_Chibi_Hatsune_Miku_dancing_on_a_concert_stage_cut_bde5e43e-af9c-4a58-8758-5c2ab1af65a3_0.mp4" type="video/mp4" />
+        <source src="/miku-dance.mp4" type="video/mp4" />
         {/* フォールバック用の静的背景 */}
       </video>
 

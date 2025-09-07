@@ -94,3 +94,4 @@ temp/
 
 # Development tools
 .bolt/
+.vercel
