@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 初音ミクテーマのカスタムアニメーション */
+@keyframes miku-glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(20, 184, 166, 0.3); }
+  50% { box-shadow: 0 0 30px rgba(6, 182, 212, 0.5); }
+}
+
+.miku-glow {
+  animation: miku-glow 3s ease-in-out infinite;
+}
+
+/* スムーズスクロールのグローバル設定 */
+html {
+  scroll-behavior: smooth;
+}
+
+/* スクロール時のオフセット調整 */
+@layer utilities {
+  .scroll-mt-8 {
+    scroll-margin-top: 2rem;
+  }
+  
+  /* 初音ミクテーマのカスタムシャドウ */
+  .shadow-3xl {
+    box-shadow: 0 35px 60px -12px rgba(0, 0, 0, 0.25);
+  }
+}
